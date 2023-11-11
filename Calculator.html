@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="bg-card">
+            <div class="calculator">
+                <div id="evaluationString" class="area"></div>
+                <input type="text" id="inputbox" placeholder="0">
+
+                <table>
+                    <tr id="q">
+                        <td><button class="op">(</button></td>
+                        <td><button class="op">)</button></td>
+                        <td><button class="clear">ans</button></td>
+                        <td><button class="clear">del</button></td>
+                        <td><button class="clear">clear</button></td>
+                    </tr>
+                    <tr id="q">
+                        <td><button>7</button></td>
+                        <td><button>8</button></td>
+                        <td><button>9</button></td>
+                        <td><button class="op">%</button></td>
+                        <td><button class="op">&#8730;</button></td>
+                    </tr>
+                    <tr id="q">
+                        <td><button>4</button></td>
+                        <td><button>5</button></td>
+                        <td><button>6</button></td>
+                        <td><button class="op">x</button></td>
+                        <td><button class="op">&#247;</button></td>
+                    </tr>
+                    <tr id="q">
+                        <td><button>1</button></td>
+                        <td><button>2</button></td>
+                        <td><button>3</button></td>
+                        <td><button class="op">+</button></td>
+                        <td><button class="op">-</button></td>
+                    </tr>
+                    <tr id="q">
+                        <td><button class="op">.</button></td>
+                        <td><button>0</button></td>
+                        <td><button class="op">&#177;</button></td>
+                        <td colspan="2">
+                            <button class="equal">ENTER</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
